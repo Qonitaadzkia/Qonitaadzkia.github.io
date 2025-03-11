@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Belajar Web</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS (Opsional) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Belajar Web.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tutors.html">Tutors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Partners.html">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sign Up Form -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Sign Up</h2>
+                        <form>
+                            <!-- Nama Lengkap -->
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap" required>
+                            </div>
+                            <!-- Email -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Masukkan email" required>
+                            </div>
+                            <!-- Password -->
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Masukkan password" required>
+                            </div>
+                            <!-- Konfirmasi Password -->
+                            <div class="mb-3">
+                                <label for="confirmPassword" class="form-label">Konfirmasi Password</label>
+                                <input type="password" class="form-control" id="confirmPassword" placeholder="Konfirmasi password" required>
+                            </div>
+                            <!-- Tombol Daftar -->
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Daftar</button>
+                            </div>
+                        </form>
+                        <p class="text-center mt-3">
+                            Sudah punya akun? <a href="#">Login di sini</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Belajar Web.</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptatem.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>About</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptatem.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <p>Jl. Pemangku Basri Manna Bengkulu Selatan</p>
+                    <p>Kode Pos: 35678</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Social Media</h5>
+                    <p><b>Youtube:</b> Qonita Adzkiatul Mardiyah</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="bg-dark text-white text-center py-3">
+        <div class="container">
+            &copy; 2025. <b>Belajar Web.</b> All Rights Reserved.
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
